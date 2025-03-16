@@ -63,6 +63,7 @@ yosys -p "synth_ice40 -top cpu -json cpu.json" \
 nextpnr-ice40 --up5k --package sg48 --json cpu.json --pcf constraints.pcf --asc cpu.asc
 icepack cpu.asc cpu.bin
 iceprog cpu.bin
+```
 
 ---
 
